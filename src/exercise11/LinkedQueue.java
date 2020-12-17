@@ -15,7 +15,7 @@ public class LinkedQueue {
       frontNode = newNode;
       backNode = newNode;
     }else{
-      backNode.setNextNode(frontNode);
+      backNode.setNextNode(newNode);
       backNode = newNode;
     }
     }
